@@ -61,7 +61,7 @@ abstract class ChartCanvas {
       bool roundEndCaps,
       double strokeWidthPx,
       List<int> dashPattern,
-      bool smoothLine});
+      });
 
   /// Renders a pie, with an optional hole in the center.
   void drawPie(CanvasPie canvasPie);
